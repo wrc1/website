@@ -11,10 +11,7 @@ body{
     box-shadow: 0px 4px 0px -4px rgba(194, 188, 194, 1);
 }
 
-/* :target {
-    animation: highlight 5s ease;
-    /* transform: translateX(20px);      */
-} */
+
 
 /*                 */
 
@@ -179,7 +176,9 @@ body{
     margin-top: 0px;
     font-weight: 700;
 }
-
+#de-about-section .content-details .ws-sub-details p{
+    font-size: 13px;
+}
 #ws-about-section .content-details .ws-sub-details {
     margin-bottom: 5px;
     margin-top: 15px;
@@ -196,6 +195,10 @@ body{
     /* font-family: 'Lato', sans-serif; */
     /* font-family: 'Lora', serif; */
     font-family: 'Noto Serif', serif;
+}
+
+#ws-about-section .content-details .ws-item-detail{
+    font-size: 13px;
 }
 
 /*****************/
@@ -278,7 +281,12 @@ body{
 }
 
 .cd-timeline-content .ws-ex-year{
-    font-size: 30px;
+    font-size: 26px;
+}
+.cd-timeline-content  .work_place{
+    font-weight: 600;
+    font-size: 17px;
+    opacity: 0.5;
 }
 
 #ws-experience-section .ws-ex-main-title {
@@ -487,7 +495,7 @@ body{
 
 
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
     /*                 */
     /* Block 1 - Start */
     /*       header    */
